@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FLXTodoTableViewController : UITableViewController
+@interface FLXTodoTableViewController : UITableViewController <UIAlertViewDelegate>
 
 
 @end

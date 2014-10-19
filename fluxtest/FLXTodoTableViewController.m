@@ -81,7 +81,16 @@ static NSString *kTodoTableViewCellIdentifier = @"TodoTableViewCell";
 # pragma mark - IBAction
 
 - (IBAction)didPressAddTodoButton:(id)sender {
-    [self.todoAction addTodo:@"hoge"];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Todo" message:@"Subject?" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Create", nil];
+    alert.alertViewStyle = UIAlertViewStylePlainTextInput;
+    [alert show];
+}
+
+# pragma mark - UIAlertViewDelegate
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    NSString *subject = [alertView textFieldAtIndex:0].text;
+    [self.todoAction addTodo:subject];
 }
 
 @end
