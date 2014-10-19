@@ -26,6 +26,10 @@
     return self;
 }
 
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 - (void)startObservation {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(addTodoObserver:) name:kFLXTodoActionAddEvent object:nil];
 }

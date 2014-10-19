@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0C445375-DD9C-4FF8-8291-542B86B32810</string>
+	<key>IDESourceControlProjectName</key>
+	<string>fluxtest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4EE2D41D3D05813007A03C68E963DB50E5D91D3E</key>
+		<string>github.com:kaiinui/TodoFlux.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>fluxtest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4EE2D41D3D05813007A03C68E963DB50E5D91D3E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:kaiinui/TodoFlux.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4EE2D41D3D05813007A03C68E963DB50E5D91D3E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4EE2D41D3D05813007A03C68E963DB50E5D91D3E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fluxtest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -18,4 +18,10 @@
     return self;
 }
 
+# pragma mark - Equals
+
+- (NSUInteger)hash {
+    return self.subject.hash;
+}
+
 @end

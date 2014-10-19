@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-fluxtestTests-Expecta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-fluxtestTests-KIF.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-fluxtestTests-OCHamcrest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-fluxtestTests-OCMockito.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-fluxtestTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>142C9713210B966E0C0D6FCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>37DB75971B7ED4D4023F9F3E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73D6210E6A119F329602ECCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73DC54E773AEA514DDF56040</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA02D8419370F23B1F2CC94D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

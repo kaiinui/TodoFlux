@@ -23,6 +23,10 @@
 		D4FD559F19F3700D00954C53 /* FLXTodoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD559E19F3700D00954C53 /* FLXTodoStore.m */; };
 		D4FD55A219F3701700954C53 /* FLXStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD55A119F3701700954C53 /* FLXStore.m */; };
 		D4FD55A519F3705B00954C53 /* FLXStoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD55A419F3705B00954C53 /* FLXStoreService.m */; };
+		D4FD55A919F38E7800954C53 /* FLXTodoActionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD55A819F38E7800954C53 /* FLXTodoActionTests.m */; };
+		D4FD55AB19F3921F00954C53 /* FLXTodoDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD55AA19F3921F00954C53 /* FLXTodoDispatcherTests.m */; };
+		D4FD55AD19F3933300954C53 /* FLXTodoStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD55AC19F3933300954C53 /* FLXTodoStoreTests.m */; };
+		EB538B276E8F7432034A5042 /* libPods-fluxtestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D94F0F9075322D15D9519A7E /* libPods-fluxtestTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B02ED04834AF0BF9A385C05 /* Pods-fluxtestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fluxtestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fluxtestTests/Pods-fluxtestTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFCF77C61EF3674446DB19D5 /* Pods-fluxtestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fluxtestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fluxtestTests/Pods-fluxtestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4FD556119F3644C00954C53 /* fluxtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fluxtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FD556519F3644C00954C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FD556619F3644C00954C53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +75,10 @@
 		D4FD55A419F3705B00954C53 /* FLXStoreService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXStoreService.m; sourceTree = "<group>"; };
 		D4FD55A619F371EA00954C53 /* FLXEventConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXEventConst.h; sourceTree = "<group>"; };
 		D4FD55A719F37F3800954C53 /* FLXConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXConst.h; sourceTree = "<group>"; };
+		D4FD55A819F38E7800954C53 /* FLXTodoActionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXTodoActionTests.m; sourceTree = "<group>"; };
+		D4FD55AA19F3921F00954C53 /* FLXTodoDispatcherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXTodoDispatcherTests.m; sourceTree = "<group>"; };
+		D4FD55AC19F3933300954C53 /* FLXTodoStoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXTodoStoreTests.m; sourceTree = "<group>"; };
+		D94F0F9075322D15D9519A7E /* libPods-fluxtestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fluxtestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,18 +93,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB538B276E8F7432034A5042 /* libPods-fluxtestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4395E36914C5B256357F4548 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFCF77C61EF3674446DB19D5 /* Pods-fluxtestTests.debug.xcconfig */,
+				8B02ED04834AF0BF9A385C05 /* Pods-fluxtestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C99383E4F9FE2EE6F9B82584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D94F0F9075322D15D9519A7E /* libPods-fluxtestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D4FD555819F3644C00954C53 = {
 			isa = PBXGroup;
 			children = (
 				D4FD556319F3644C00954C53 /* fluxtest */,
 				D4FD557D19F3644C00954C53 /* fluxtestTests */,
 				D4FD556219F3644C00954C53 /* Products */,
+				4395E36914C5B256357F4548 /* Pods */,
+				C99383E4F9FE2EE6F9B82584 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +177,9 @@
 			isa = PBXGroup;
 			children = (
 				D4FD558019F3644C00954C53 /* fluxtestTests.m */,
+				D4FD55A819F38E7800954C53 /* FLXTodoActionTests.m */,
+				D4FD55AA19F3921F00954C53 /* FLXTodoDispatcherTests.m */,
+				D4FD55AC19F3933300954C53 /* FLXTodoStoreTests.m */,
 				D4FD557E19F3644C00954C53 /* Supporting Files */,
 			);
 			path = fluxtestTests;
@@ -200,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4FD558719F3644C00954C53 /* Build configuration list for PBXNativeTarget "fluxtestTests" */;
 			buildPhases = (
+				F0892F0A9C33E1A562FD8C23 /* Check Pods Manifest.lock */,
 				D4FD557619F3644C00954C53 /* Sources */,
 				D4FD557719F3644C00954C53 /* Frameworks */,
 				D4FD557819F3644C00954C53 /* Resources */,
+				164D328B5384B21EA01AEFB5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +306,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		164D328B5384B21EA01AEFB5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fluxtestTests/Pods-fluxtestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0892F0A9C33E1A562FD8C23 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4FD555D19F3644C00954C53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -295,6 +363,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FD55A919F38E7800954C53 /* FLXTodoActionTests.m in Sources */,
+				D4FD55AB19F3921F00954C53 /* FLXTodoDispatcherTests.m in Sources */,
+				D4FD55AD19F3933300954C53 /* FLXTodoStoreTests.m in Sources */,
 				D4FD558119F3644C00954C53 /* fluxtestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +498,7 @@
 		};
 		D4FD558819F3644C00954C53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFCF77C61EF3674446DB19D5 /* Pods-fluxtestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -446,6 +518,7 @@
 		};
 		D4FD558919F3644C00954C53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B02ED04834AF0BF9A385C05 /* Pods-fluxtestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -478,6 +551,7 @@
 				D4FD558619F3644C00954C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4FD558719F3644C00954C53 /* Build configuration list for PBXNativeTarget "fluxtestTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +560,7 @@
 				D4FD558919F3644C00954C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
