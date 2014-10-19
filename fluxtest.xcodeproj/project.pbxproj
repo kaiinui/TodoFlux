@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		D4FD556719F3644C00954C53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD556619F3644C00954C53 /* main.m */; };
 		D4FD556A19F3644C00954C53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD556919F3644C00954C53 /* AppDelegate.m */; };
-		D4FD556D19F3644C00954C53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD556C19F3644C00954C53 /* ViewController.m */; };
+		D4FD556D19F3644C00954C53 /* FLXTodoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD556C19F3644C00954C53 /* FLXTodoTableViewController.m */; };
 		D4FD557019F3644C00954C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FD556E19F3644C00954C53 /* Main.storyboard */; };
 		D4FD557219F3644C00954C53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FD557119F3644C00954C53 /* Images.xcassets */; };
 		D4FD557519F3644C00954C53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4FD557319F3644C00954C53 /* LaunchScreen.xib */; };
 		D4FD558119F3644C00954C53 /* fluxtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD558019F3644C00954C53 /* fluxtestTests.m */; };
+		D4FD558C19F3688900954C53 /* FLXTodoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD558B19F3688900954C53 /* FLXTodoTableViewCell.m */; };
+		D4FD558F19F36AC000954C53 /* FLXTodoAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD558E19F36AC000954C53 /* FLXTodoAction.m */; };
+		D4FD559219F36B3600954C53 /* FLXTodoDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD559119F36B3600954C53 /* FLXTodoDispatcher.m */; };
+		D4FD559519F36BF200954C53 /* FLXTodo.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD559419F36BF200954C53 /* FLXTodo.m */; };
+		D4FD559919F36E3C00954C53 /* FLXAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD559819F36E3C00954C53 /* FLXAction.m */; };
+		D4FD559C19F36E4300954C53 /* FLXDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD559B19F36E4300954C53 /* FLXDispatcher.m */; };
+		D4FD559F19F3700D00954C53 /* FLXTodoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD559E19F3700D00954C53 /* FLXTodoStore.m */; };
+		D4FD55A219F3701700954C53 /* FLXStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD55A119F3701700954C53 /* FLXStore.m */; };
+		D4FD55A519F3705B00954C53 /* FLXStoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD55A419F3705B00954C53 /* FLXStoreService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +41,34 @@
 		D4FD556619F3644C00954C53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4FD556819F3644C00954C53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4FD556919F3644C00954C53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D4FD556B19F3644C00954C53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D4FD556C19F3644C00954C53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4FD556B19F3644C00954C53 /* FLXTodoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXTodoTableViewController.h; sourceTree = "<group>"; };
+		D4FD556C19F3644C00954C53 /* FLXTodoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLXTodoTableViewController.m; sourceTree = "<group>"; };
 		D4FD556F19F3644C00954C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4FD557119F3644C00954C53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D4FD557419F3644C00954C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D4FD557A19F3644C00954C53 /* fluxtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fluxtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FD557F19F3644C00954C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FD558019F3644C00954C53 /* fluxtestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fluxtestTests.m; sourceTree = "<group>"; };
+		D4FD558A19F3688900954C53 /* FLXTodoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXTodoTableViewCell.h; sourceTree = "<group>"; };
+		D4FD558B19F3688900954C53 /* FLXTodoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXTodoTableViewCell.m; sourceTree = "<group>"; };
+		D4FD558D19F36AC000954C53 /* FLXTodoAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXTodoAction.h; sourceTree = "<group>"; };
+		D4FD558E19F36AC000954C53 /* FLXTodoAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXTodoAction.m; sourceTree = "<group>"; };
+		D4FD559019F36B3600954C53 /* FLXTodoDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXTodoDispatcher.h; sourceTree = "<group>"; };
+		D4FD559119F36B3600954C53 /* FLXTodoDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXTodoDispatcher.m; sourceTree = "<group>"; };
+		D4FD559319F36BF200954C53 /* FLXTodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXTodo.h; sourceTree = "<group>"; };
+		D4FD559419F36BF200954C53 /* FLXTodo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXTodo.m; sourceTree = "<group>"; };
+		D4FD559719F36E3C00954C53 /* FLXAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXAction.h; sourceTree = "<group>"; };
+		D4FD559819F36E3C00954C53 /* FLXAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXAction.m; sourceTree = "<group>"; };
+		D4FD559A19F36E4300954C53 /* FLXDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXDispatcher.h; sourceTree = "<group>"; };
+		D4FD559B19F36E4300954C53 /* FLXDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXDispatcher.m; sourceTree = "<group>"; };
+		D4FD559D19F3700D00954C53 /* FLXTodoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXTodoStore.h; sourceTree = "<group>"; };
+		D4FD559E19F3700D00954C53 /* FLXTodoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXTodoStore.m; sourceTree = "<group>"; };
+		D4FD55A019F3701700954C53 /* FLXStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXStore.h; sourceTree = "<group>"; };
+		D4FD55A119F3701700954C53 /* FLXStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXStore.m; sourceTree = "<group>"; };
+		D4FD55A319F3705B00954C53 /* FLXStoreService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXStoreService.h; sourceTree = "<group>"; };
+		D4FD55A419F3705B00954C53 /* FLXStoreService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXStoreService.m; sourceTree = "<group>"; };
+		D4FD55A619F371EA00954C53 /* FLXEventConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXEventConst.h; sourceTree = "<group>"; };
+		D4FD55A719F37F3800954C53 /* FLXConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXConst.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +110,22 @@
 		D4FD556319F3644C00954C53 /* fluxtest */ = {
 			isa = PBXGroup;
 			children = (
+				D4FD559619F36E3100954C53 /* Flux */,
 				D4FD556819F3644C00954C53 /* AppDelegate.h */,
 				D4FD556919F3644C00954C53 /* AppDelegate.m */,
-				D4FD556B19F3644C00954C53 /* ViewController.h */,
-				D4FD556C19F3644C00954C53 /* ViewController.m */,
+				D4FD556B19F3644C00954C53 /* FLXTodoTableViewController.h */,
+				D4FD556C19F3644C00954C53 /* FLXTodoTableViewController.m */,
+				D4FD558A19F3688900954C53 /* FLXTodoTableViewCell.h */,
+				D4FD558B19F3688900954C53 /* FLXTodoTableViewCell.m */,
+				D4FD558D19F36AC000954C53 /* FLXTodoAction.h */,
+				D4FD558E19F36AC000954C53 /* FLXTodoAction.m */,
+				D4FD55A619F371EA00954C53 /* FLXEventConst.h */,
+				D4FD559019F36B3600954C53 /* FLXTodoDispatcher.h */,
+				D4FD559119F36B3600954C53 /* FLXTodoDispatcher.m */,
+				D4FD559D19F3700D00954C53 /* FLXTodoStore.h */,
+				D4FD559E19F3700D00954C53 /* FLXTodoStore.m */,
+				D4FD559319F36BF200954C53 /* FLXTodo.h */,
+				D4FD559419F36BF200954C53 /* FLXTodo.m */,
 				D4FD556E19F3644C00954C53 /* Main.storyboard */,
 				D4FD557119F3644C00954C53 /* Images.xcassets */,
 				D4FD557319F3644C00954C53 /* LaunchScreen.xib */,
@@ -117,6 +158,22 @@
 				D4FD557F19F3644C00954C53 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4FD559619F36E3100954C53 /* Flux */ = {
+			isa = PBXGroup;
+			children = (
+				D4FD559719F36E3C00954C53 /* FLXAction.h */,
+				D4FD559819F36E3C00954C53 /* FLXAction.m */,
+				D4FD559A19F36E4300954C53 /* FLXDispatcher.h */,
+				D4FD559B19F36E4300954C53 /* FLXDispatcher.m */,
+				D4FD55A019F3701700954C53 /* FLXStore.h */,
+				D4FD55A119F3701700954C53 /* FLXStore.m */,
+				D4FD55A319F3705B00954C53 /* FLXStoreService.h */,
+				D4FD55A419F3705B00954C53 /* FLXStoreService.m */,
+				D4FD55A719F37F3800954C53 /* FLXConst.h */,
+			);
+			name = Flux;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +276,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4FD556D19F3644C00954C53 /* ViewController.m in Sources */,
+				D4FD55A519F3705B00954C53 /* FLXStoreService.m in Sources */,
+				D4FD558C19F3688900954C53 /* FLXTodoTableViewCell.m in Sources */,
+				D4FD556D19F3644C00954C53 /* FLXTodoTableViewController.m in Sources */,
+				D4FD559519F36BF200954C53 /* FLXTodo.m in Sources */,
+				D4FD559219F36B3600954C53 /* FLXTodoDispatcher.m in Sources */,
+				D4FD558F19F36AC000954C53 /* FLXTodoAction.m in Sources */,
+				D4FD559C19F36E4300954C53 /* FLXDispatcher.m in Sources */,
 				D4FD556A19F3644C00954C53 /* AppDelegate.m in Sources */,
+				D4FD559919F36E3C00954C53 /* FLXAction.m in Sources */,
+				D4FD559F19F3700D00954C53 /* FLXTodoStore.m in Sources */,
+				D4FD55A219F3701700954C53 /* FLXStore.m in Sources */,
 				D4FD556719F3644C00954C53 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

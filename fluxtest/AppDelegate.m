@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import "FLXStoreService.h"
+#import "FLXTodoStore.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [[FLXStoreService service] addStore:[FLXTodoStore store] forKey:@"FLXTodoStore"];
+    
     return YES;
 }
 
