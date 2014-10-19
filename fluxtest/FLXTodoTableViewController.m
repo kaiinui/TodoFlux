@@ -90,7 +90,7 @@ static NSString *kTodoTableViewCellIdentifier = @"TodoTableViewCell";
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     NSString *subject = [alertView textFieldAtIndex:0].text;
-    [self.todoAction addTodo:subject];
+    [self.todoAction addTodoWithSubject:subject];
 }
 
 @end

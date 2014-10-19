@@ -11,6 +11,6 @@
 
 @interface FLXTodoAction : FLXAction
 
-- (void)addTodo:(NSString *)subject;
+- (void)addTodoWithSubject:(NSString *)subject;
 
 @end

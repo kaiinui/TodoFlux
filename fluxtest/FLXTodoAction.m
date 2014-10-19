@@ -33,7 +33,7 @@
 /**
  *  @const
  */
-- (void)addTodo:(NSString *)subject {
+- (void)addTodoWithSubject:(NSString *)subject {
     FLXTodo *todo = [[FLXTodo alloc] initWithSubject:subject];
     [self.dispatcher dispatch:todo withEventName:kFLXTodoActionAddEvent];
 }
